@@ -1,0 +1,50 @@
+
+input{
+  border: none;
+}
+button {
+  height: 50px;
+  width: 50px;
+  margin: 10px 4px;
+  
+  border: none !important;
+}
+*:focus {
+    outline: 0 !important;
+}
+#allClear {
+  background-color: aqua;
+  border: none;
+}
+#clear {
+  background-color: yellow;
+  border: none;
+}
+#equals{
+ background-color: greenyellow;
+  border: none;
+}
+/* Hidden button for formatting sake */
+#blank {
+  visibility: hidden;
+}
+.calcBG {
+  background-color:cornsilk;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.screen {
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+small {
+  color: black;
+  font-weight: bold;
+}
